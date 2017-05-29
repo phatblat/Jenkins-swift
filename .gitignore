@@ -1,3 +1,20 @@
 .DS_Store
+
+# SPM
 /.build
 /Packages
+
+# Xcode
+*.xccheckout
+*.xcscmblueprint
+xcuserdata
+
+# Carthage
+Carthage/
+
+# CocoaPods
+Pods/
+
+# Bundler
+.rubygems/
+bin/
