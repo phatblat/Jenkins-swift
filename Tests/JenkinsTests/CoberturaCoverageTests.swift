@@ -14,7 +14,7 @@ class CoberturaCoverageTests: XCTestCase {
     
     func testCoberturaCodeCoverageDepth2() {
         
-        guard let path = Bundle(for: type(of: self)).path(forResource: "CoberturaCoverageReportDepth2", ofType: "json") else {
+        guard let path = Bundle(for: type(of: self)).path(forResource: "CoberturaCoverageReportDepth2", ofType: "json", inDirectory: "JSON") else {
             return XCTFail("Missing Coverage Report JSON")
         }
         
@@ -42,7 +42,7 @@ class CoberturaCoverageTests: XCTestCase {
     }
     
     func testCoberturaCodeCoverageDepth3() {
-        guard let path = Bundle(for: type(of: self)).path(forResource: "CoberturaCoverageReportDepth3", ofType: "json") else {
+        guard let path = Bundle(for: type(of: self)).path(forResource: "CoberturaCoverageReportDepth3", ofType: "json", inDirectory: "JSON") else {
             return XCTFail("Missing Coverage Report JSON")
         }
         

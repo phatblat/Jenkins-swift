@@ -13,7 +13,7 @@ import XCTest
 class JacocoCoverageTests: XCTestCase {
     
     func testJacocoCodeCoverageDepth2() {
-        guard let path = Bundle(for: type(of: self)).path(forResource: "JacocoCoverageReportDepth", ofType: "json") else {
+        guard let path = Bundle(for: type(of: self)).path(forResource: "JacocoCoverageReportDepth", ofType: "json", inDirectory: "JSON") else {
             return XCTFail("Missing Jacoco Coverage Report JSON")
         }
         

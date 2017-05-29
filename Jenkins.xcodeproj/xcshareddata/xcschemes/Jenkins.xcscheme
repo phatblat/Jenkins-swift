@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_25"
+               BlueprintIdentifier = "OBJ_29"
                BuildableName = "Jenkins.framework"
                BlueprintName = "Jenkins"
                ReferencedContainer = "container:Jenkins.xcodeproj">
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_48"
+               BuildableName = "JenkinsTests.xctest"
+               BlueprintName = "JenkinsTests"
+               ReferencedContainer = "container:Jenkins.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -45,7 +55,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_25"
+            BlueprintIdentifier = "OBJ_29"
             BuildableName = "Jenkins.framework"
             BlueprintName = "Jenkins"
             ReferencedContainer = "container:Jenkins.xcodeproj">
