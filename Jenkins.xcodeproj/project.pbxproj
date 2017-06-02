@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F84FCF931EDBE29C0011CB33 /* JSON in Resources */ = {isa = PBXBuildFile; fileRef = F84FCF911EDBE27D0011CB33 /* JSON */; };
+		F84FCF971EDCACCD0011CB33 /* JSON in Resources */ = {isa = PBXBuildFile; fileRef = F84FCF911EDBE27D0011CB33 /* JSON */; };
 		OBJ_34 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* APIClient.swift */; };
 		OBJ_35 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Build.swift */; };
 		OBJ_36 /* CoberturaCoverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* CoberturaCoverage.swift */; };
@@ -207,7 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F84FCF931EDBE29C0011CB33 /* JSON in Resources */,
+				F84FCF971EDCACCD0011CB33 /* JSON in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

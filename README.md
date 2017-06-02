@@ -15,6 +15,22 @@ The client allows for some simple control of Jenkins jobs and builds. With Jenki
 
 ___
 
+## Setup
+
+Run the following command to generate an Xcode project.
+
+```
+swift package generate-xcodeproj
+```
+
+However, since the SPM doesn't [support resources](https://stackoverflow.com/questions/39815054/how-to-include-assets-bundle-file-in-a-swift-package-manager-library),
+the Xcode project has been modified to add JSON test files.
+
+- JSON added to project as folder reference
+- JSON added to Copy Bundle Resources phase of JenkinsTests target
+
+___
+
 ## Connecting
 
 Initializing the client with the hostname, or IP address of Jenkins, as well as your port, username, API token and optionally a path to where your jobs are located and the transport method.
